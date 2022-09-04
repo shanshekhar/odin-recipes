@@ -1,0 +1,39 @@
+.navbarcontainer {
+    display:flex;
+    flex-direction: row; 
+}
+
+.navbarcontainer div {
+    border: 4px solid brown;
+    flex: 1 1 auto;
+    background: #1f2937;
+  }
+
+.logotext{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: "Roboto", sans-serif;
+    font-size:24px;
+    color: #f9faf8;
+}
+
+.navbartext{
+    font-family: "Roboto", sans-serif;
+    font-size:18px;
+    color: #e5e7eb;
+    align-content: center;
+}
+
+.herotext{
+    font-family: "Roboto", sans-serif;
+    font-size:48px;
+    font-weight: extra-bold;
+    color: f9faf8;
+}
+
+.herosubtext{
+    font-family: "Roboto", sans-serif;
+    font-size:18px;
+    font-weight: extra-bold;
+    color:e5e7eb;
+}
